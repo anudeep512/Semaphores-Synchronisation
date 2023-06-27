@@ -63,12 +63,13 @@ For executing the program:
 
 Input to the program is read from the file **input.txt**. The input should be given in the format:
 
-P C &lambda;(P) &lambda;(C) 
+P C &lambda;(P) &lambda;(C) K
 
 - **P:** Number of passenger threads
 - **C:** Number of car threads
 - **&lambda;(P):** Parameter for exponential wait between 2 successive ride request made by the passenger
 - **&lambda;(C):** Parameter for exponential wait between 2 successive ride request accpeted by a car
+- **K:** Total number of rides a passenger must ride for the passenger to exit the park
 
 ### Output of the Program 
 
